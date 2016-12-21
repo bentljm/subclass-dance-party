@@ -21,7 +21,18 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
+  border:40px solid yellow;
+  border-radius:40px;
+  position: fixed;
 }
+.santa{
+  position: fixed;
+  zoom: 50%;
+}
+
+.lineUp{
+  padding:5px 12px;
+  float:left;
+}
+
+
