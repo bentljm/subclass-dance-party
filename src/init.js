@@ -59,37 +59,5 @@ $(document).ready(function() {
       }
     }
   });
-
-// The .position() method allows us to retrieve the current position of an element relative to the offset parent. Contrast this with .offset(), which retrieves the current position relative to the document. When positioning a new element near another one and within the same containing DOM element, .position() is the more useful.
-
-// Returns an object containing the properties top and left.
-
-
-
-  /*if 2 dots too close, they fall to bottom */
-  // var node1, node2, dist;
-  // for (var i = 0; i< window.dancer.length; i++){
-  //   node1 = window.dancer.$node[i];
-  //   for (var j=0; j<window.dancer.length; j++){
-  //     if (i!==j){
-  //       node2 = window.dancer.$node[j];
-  //       dist =
-  //     }
-  //   }
-
-
-
-
 });
-
-// Make a button that, when clicked, tells all the dancers to line up against one side of the dance floor. Remember you've got a global array of all created dancers (it's defined in src/init.js) so you can loop through that array and tell each object to lineUp. You'll need to add a lineUp method to each of your dancer types - they don't all have to do exactly the same thing.
-
-
-
-
-
-// Make at least two new kinds of dancers. This will require creating a new factory function for each one (and making sure that your new JavaScript files are included in dancefloor.html).
-
-// Add a link in the top bar of dancefloor.html to create a dancer of each new type you create
-// Write tests for new types. Use spec/blinkyDancerSpec.js as a template for new test files, and make sure to include them in SpecRunner.html.
 
